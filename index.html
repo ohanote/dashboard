@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Promage</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="dashboard">
+        <nav id="side-bar">
+            <div id="nav-header">
+                <img src="./assets/logo.svg" alt="logo" id="logo">
+                <i class="fa-solid fa-circle-chevron-left icon" id="close-side-bar"></i>
+            </div>
+
+            <button><i class="fa-solid fa-circle-plus icon"></i> Create New Project</button>
+
+            <ul id="menu">
+                <li class="menu-item active"><i class="fa-solid fa-table-columns icon"></i>
+                    Dashboard</li>
+                <li class="menu-item"><i class="fa-solid fa-briefcase icon"></i></i>Projects</li>
+                <li class="menu-item"><i class="fa-solid fa-list-check icon"></i> Tasks</li>
+                <li class="menu-item"><i class="fa-solid fa-microchip icon"></i> Dashboard</li>
+                <li class="menu-item"><i class="fa-solid fa-clock icon"></i> Time Log</li>
+                <li class="menu-item"><i class="fa-solid fa-code-fork icon"></i> Resource</li>
+                <li class="menu-item"><i class="fa-solid fa-users icon"></i> Users</li>
+                <li class="menu-item"><i class="fa-solid fa-layer-group icon"></i> Project Template</li>
+                <li class="menu-item"><i class="fa-solid fa-gear icon"></i>Menu Settings</li>
+            </ul>
+
+            <button class="floating" id="help"><i class="fa-solid fa-question icon"></i></button>
+        </nav>
+        <section class="dashboard-content">
+            <div class="top-bar">
+                <h1>Dashboard</h1>
+                <div class="top-bar-left">
+                    <div class="search">
+                        <input type="text" placeholder="Search for anything...">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="dropdown-menu">
+                        <img src="./assets/profile.svg" alt="profile">
+                        <div class="user-info">
+                            <span class="user-name">Alex Meian</span>
+                            <span class="user-work">Product Manager</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-up down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-content">
+                <div class="title">
+                    <h2>Overview</h2>
+                    <div class="dropdown-menu">
+                        <span>Last 30 Days</span>
+                        <i class="fa-solid fa-chevron-up down"></i>
+                    </div>
+                </div>
+
+                <div class="main-cards">
+                    <div class="card">
+                        <img src="./assets/icons/revenue.svg" alt="">
+                        <span class="card-name">Total Revenue</span>
+                        <span class="card-data">$53,00989</span>
+                        <span class="card-resume">
+                            <img src="" alt="">
+                            12% increase from last month
+                        </span>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/icons/projects.svg" alt="">
+                        <span class="card-name">Projects</span>
+                        <span class="card-data">95 /100</span>
+                        <span class="card-resume">
+                            <img src="" alt="">
+                            10% decrease from last month
+                        </span>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/icons/time.svg" alt="">
+                        <span class="card-name">Time spent</span>
+                        <span class="card-data">1022 /1300 Hrs</span>
+                        <span class="card-resume">
+                            <img src="" alt="">
+                            8% increase from last month
+                        </span>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/icons/resource.svg" alt="">
+                        <span class="card-name">Resources</span>
+                        <span class="card-data">101 /120</span>
+                        <span class="card-resume">
+                            <img src="" alt="">
+                            2% increase from last month
+                        </span>
+                    </div>
+                </div>
+
+                <section class="dashboard-grid">
+
+                </section>
+            </div>
+
+        </section>
+    </main>
+    <script src="https://kit.fontawesome.com/387cea2dde.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
