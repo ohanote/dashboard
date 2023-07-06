@@ -185,6 +185,15 @@ button:hover {
   line-height: normal;
 }
 
+.dashboard-pannel {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  overflow-y: scroll;
+  background-color: #ebdfd7;
+}
+
 .dashboard-content {
   display: flex;
   flex-direction: column;
