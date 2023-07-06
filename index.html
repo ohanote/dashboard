@@ -103,7 +103,102 @@
                 </div>
 
                 <section class="dashboard-grid">
+                    <div class="dashboard-card">
+                        <div class="title">
+                            <h3>Overview</h3>
+                            <div class="filters">
+                                <div class="dropdown-menu">
+                                    <span>Project</span>
+                                    <i class="fa-solid fa-chevron-up down"></i>
+                                </div>
+                                <div class="dropdown-menu">
+                                    <span>Project Manager</span>
+                                    <i class="fa-solid fa-chevron-up down"></i>
+                                </div>
+                                <div class="dropdown-menu">
+                                    <span>Status</span>
+                                    <i class="fa-solid fa-chevron-up down"></i>
+                                </div>
+                            </div>
+                        </div>
 
+                        <table class="table">
+                            <tr>
+                                <th>Name</th>
+                                <th>Project Manager</th>
+                                <th>Due Date</th>
+                                <th>Status</th>
+                            </tr>
+                            <tr>
+                                <td>Nelsa web developement</td>
+                                <td>Om prakash sao</td>
+                                <td>May 25, 2023</td>
+                                <td class="green">Completed</td>
+                            </tr>
+                            <tr>
+                                <td>Datascale AI app </td>
+                                <td>Neilsan mando</td>
+                                <td>Jun 20, 2023</td>
+                                <td class="yellow">Delayed</td>
+                            </tr>
+                            <tr>
+                                <td>Media channel branding</td>
+                                <td>Tiruvelly priya</td>
+                                <td>July 13, 2023</td>
+                                <td class="red">At risk</td>
+                            </tr>
+                            <tr>
+                                <td>Corlax iOS app develpoement</td>
+                                <td>Matte hannery</td>
+                                <td>Dec 20, 2023</td>
+                                <td class="green">Completed</td>
+                            </tr>
+                            <tr>
+                                <td>Website builder developement</td>
+                                <td>Sukumar rao</td>
+                                <td>Mar 15, 2024</td>
+                                <td class="orange">On going</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="dashboard-card">
+                        <div class="title">
+                            <h3>Overall Progress</h3>
+                            <div class="filters">
+                                <div class="dropdown-menu">
+                                    <span>All</span>
+                                    <i class="fa-solid fa-chevron-up down"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="gauge">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="320px" height="320px">
+                                <circle cx="160" cy="160" r="120" stroke-linecap="round" id="ongoing" />
+                                <circle cx="160" cy="160" r="120" stroke-linecap="round" id="delayed" />
+                                <circle cx="160" cy="160" r="120" stroke-linecap="round" id="completed" />
+                            </svg>
+                        </div>
+                        <div class="gauge-datas">
+                            <div class="gauge-data">
+                                <span class="gauge-number">95</span>
+                                <span class="gauge-name">Total projects</span>
+                            </div>
+                            <div class="gauge-data green">
+                                <span class="gauge-number">26</span>
+                                <span class="gauge-name">Total projects</span>
+                            </div>
+                            <div class="gauge-data yellow">
+                                <span class="gauge-number">35</span>
+                                <span class="gauge-name">Total projects</span>
+                            </div>
+                            <div class="gauge-data orange">
+                                <span class="gauge-number">35</span>
+                                <span class="gauge-name">Total projects</span>
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </div>
 
