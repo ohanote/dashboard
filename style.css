@@ -54,7 +54,7 @@ select:focus {
 .dashboard {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 15% 85%;
   min-height: 100vh;
 }
 
@@ -75,7 +75,7 @@ select:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 #logo {
@@ -90,7 +90,7 @@ select:focus {
 }
 
 button {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   padding: 10px;
   border-radius: 50px;
 
